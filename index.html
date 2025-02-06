@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms-project</title>
+    <link rel="stylesheet" href="Style/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,15 +22,26 @@
                 <p>Complete the form to receive our newsletter</p>
             </div>
             <div class="right-side-container">
-                
+                <div class="sign-in-sign-up-wrapper">
+                   <h2><a href="#" class="sign-in">Sign in</a> | <span class="active">Sign upp</span></h2>
+                   <form>
+                    <label>Full name</label>
+                    <input type="text" placeholder="Enter your full name">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter yout password">
+                    <label>Email</label>
+                    <input typ="email" placeholder="Your email goes here">
+                    <div class="terms">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I agree all statements in <a href="#">terms of service</a></label>
+                    </div>
+                    <button type="submit" class="button-sign-upp">Sign upp</button>
+                    <a href="#" class="aldready-sig-upp-text">I´m already member</a>      
+                   </form>
+
+                </div>
             </div>
-
-
-        </div>
-        
+        </section>   
     </main>
-  
-
-    </div>
   </body>
 </html>
