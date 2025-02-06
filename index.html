@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="Style/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="Style/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="Style/form.css" />
   </head>
   <body>
     <main>
-        <section class="Forum-projector-wrapper">
+        <section class="forum-projector-wrapper">
+            <div class="container">
             <div class="left-side-container"> 
                 <h3>Lets stay in touch</h3>
                 <h4>Would you like to stay informed on events & news</h4>
@@ -24,12 +22,12 @@
             <div class="right-side-container">
                 <div class="sign-in-sign-up-wrapper">
                    <h2><a href="#" class="sign-in">Sign in</a> | <span class="active">Sign upp</span></h2>
-                   <form>
-                    <label>Full name</label>
+                   <form class="form-container">
+                    <label for="name" class="custom-label">Full name</label>
                     <input type="text" placeholder="Enter your full name">
-                    <label>Password</label>
-                    <input type="password" placeholder="Enter yout password">
-                    <label>Email</label>
+                    <label for="password" class="custom-label">Password</label>
+                    <input type="password" placeholder="Enter your password">
+                    <label for="email" class="custom-label">Email</label>
                     <input typ="email" placeholder="Your email goes here">
                     <div class="terms">
                         <input type="checkbox" id="terms">
@@ -38,7 +36,7 @@
                     <button type="submit" class="button-sign-upp">Sign upp</button>
                     <a href="#" class="aldready-sig-upp-text">I´m already member</a>      
                    </form>
-
+                </div>   
                 </div>
             </div>
         </section>   
