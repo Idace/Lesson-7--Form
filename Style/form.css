@@ -106,3 +106,16 @@ input::placeholder {
     color:  rgb(175, 70, 70);
     padding-left: 5px;
 }
+.button-sign-upp {
+    background-color: rgb(175, 70, 70);
+    padding-top: 10px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    curser: pointer;
+    box-shadow: 2px 2px rgb(175, 70, 70);
+}
+    
