@@ -25,18 +25,20 @@
                    <h2><a href="#" class="sign-in">Sign in</a><span class="active"> | Sign upp</span></h2>
                 <form class="form-container">
                     <label for="name" class="custom-label">Full name</label>
-                    <input type="text" placeholder="Enter your full name">
+                    <input type="text" id="name" placeholder="Enter your full name">
                     <label for="password" class="custom-label">Password</label>
-                    <input type="password" placeholder="Enter your password">
+                    <input type="password" id="password" placeholder="Enter your password" required minlength="8">
                     <label for="email" class="custom-label">Email</label>
-                    <input typ="email" placeholder="Enter your email here" id="email" required>
+                    <input typ="email" id="email" placeholder="Enter your email here" required>
+                    <label for="quastion" class="custom-label">Tell us something really unnecessary</label>
+                    <textarea name="quastion" id="quastion" cols="20" rows="5"></textarea>
                     <div class="terms">
-                        <input type="checkbox" id="terms">
+                        <input type="checkbox" checked id="terms">
                         <label for="terms">I agree all statements in <a href="#">terms of service</a></label>
                     </div>
                 </form>
                 <div class="button-link-wrapper">
-                    <button type="submit" class="button-sign-upp">Sign upp</button><span>
+                    <button type="submit" class="button-sign-upp" disabled>Sign upp</button><span>
                     <a href="#" class="aldready-sign-upp-text">I´m already member</a></span> 
                     </div>  
                 </div> 
