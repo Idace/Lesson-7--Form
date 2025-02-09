@@ -148,6 +148,8 @@ input::placeholder {
 }
 .terms input {
     margin-right: 5px;
+    cursor: pointer;
+    
 }
 .terms a {
     color: #bc8773;
